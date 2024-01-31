@@ -22,7 +22,7 @@ namespace Assignment1.Controllers
 
         public int Get(int id)
         {
-            int SquareId = id * id; ;
+            int SquareId = id * id;
             return SquareId;
         }
     }
