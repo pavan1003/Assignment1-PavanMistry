@@ -19,11 +19,10 @@ namespace Assignment1.Controllers
         ///   GET /api/Square/-2 => 4
         ///   GET /api/Square/10 => 100
         /// </example>
-
         public int Get(int id)
         {
-            int SquareId = id * id;
-            return SquareId;
+            int squareId = id * id;
+            return squareId;
         }
     }
 }

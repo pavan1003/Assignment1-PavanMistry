@@ -19,11 +19,10 @@ namespace Assignment1.Controllers
         ///   GET /api/AddTen/0 => 10
         ///   GET /api/AddTen/-9 => 1
         /// </example>
-
         public int Get(int id)
         {
-            int IdPlusTen = id + 10;
-            return IdPlusTen;
+            int idPlusTen = id + 10;
+            return idPlusTen;
         }
     }
 }

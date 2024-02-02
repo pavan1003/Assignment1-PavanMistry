@@ -19,10 +19,13 @@ namespace Assignment1.Controllers
         ///   GET /api/NumberMachine/-5 => 0
         ///   GET /api/NumberMachine/30 => 192
         /// </example>
-
         public int Get(int id)
         {
-            int Result = (((id - 60) + 65) * 11) / 2;
+            int additon = 65; // used variables for dynamic coding and reusability.
+            int substraction = 60;
+            int multiplication = 11;
+            int division = 2;
+            int Result = (((id - substraction) + additon) * multiplication) / division; // Result is truncated to an integer.
 
             return Result ;
         }

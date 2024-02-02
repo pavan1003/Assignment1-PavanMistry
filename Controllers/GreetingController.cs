@@ -31,7 +31,6 @@ namespace Assignment1.Controllers
         ///   GET /api/Greeting/6 => "Greetings to 6 people!"
         ///   GET /api/Greeting/0 => "Greetings to 0 people!"
         /// </example>
-
         public string Get(int id)
         {
             return "Greetings to " + id + " people!";
